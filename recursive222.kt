@@ -1,4 +1,4 @@
-fun main() {
+fun main(args: Array<String>) {
    val a = 4
    
    val result = factorial(a)

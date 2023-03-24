@@ -5,7 +5,7 @@ fun main() {
    println( result )
    
 }
-//recursive where it do claculate multiply first
+//recursive where it do claculate multiply
 fun factorial(a: Int, accum: Int = 1): Int {
     val result = a * accum
     return if (a <= 1) {
