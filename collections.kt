@@ -1,4 +1,5 @@
-fun main(){
-  val numbers = listOf("Orange","Aplle","Mango");
-  println(numbers);
+fun main() {
+   val theList = listOf("one", "two", "three", "four")
+    
+   theList.forEach { println(it) }
 }
